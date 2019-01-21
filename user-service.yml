@@ -23,7 +23,7 @@ logging.level.org.springframework.security: DEBUG
 spring:
   profiles: development
   datasource:
-    url: jdbc:mysql://localhost:3306/dev?verifyServerCertificate=false&useSSL=false&requireSSL=false
+    url: jdbc:mysql://localhost:3306/dev?verifyServerCertificate=false&useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: password
     initialize: true
